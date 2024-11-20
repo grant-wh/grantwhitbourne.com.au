@@ -1,70 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Project Management Expertise</title>
+    <meta name="description" content="Personal Brand - Project Management and Construction">
+    <meta name="author" content="Grant Whitbourne">
+    <title>Grant Whitbourne</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <!-- Hero Section -->
+    <!-- Header / Hero Section -->
     <header class="hero">
-        <h1>Experienced Project Manager in Civil Engineering and Construction</h1>
-        <p>Providing expert project management for large-scale projects and fractional PM services for growing businesses.</p>
-        <a href="#contact" class="cta">Get in Touch</a>
+        <div class="hero-content">
+            <h1>Hi, I'm Grant Whitbourne</h1>
+            <p>Experienced Project Manager & Civil Engineer</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
     </header>
 
-    <!-- About Me Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>With over X years of experience in civil engineering and construction project management, I specialize in overseeing complex projects from inception to completion...</p>
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I have extensive experience in civil engineering and construction project management, specializing in complex
+                projects. I also offer fractional project management services to help businesses scale effectively.</p>
+        </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services">
-        <h2>My Services</h2>
-        <div class="service">
-            <h3>Full Project Management</h3>
-            <p>Comprehensive project management services for large-scale construction and civil engineering projects.</p>
-        </div>
-        <div class="service">
-            <h3>Fractional Project Management</h3>
-            <p>Part-time, flexible project management services tailored to growing businesses.</p>
+    <section class="services">
+        <div class="container">
+            <h2>What I Do</h2>
+            <div class="service">
+                <h3>Project Management</h3>
+                <p>End-to-end project management for civil engineering and construction projects.</p>
+            </div>
+            <div class="service">
+                <h3>Fractional PM</h3>
+                <p>Flexible, on-demand project management services for businesses.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-        <h2>Featured Projects</h2>
-        <div class="project">
-            <img src="project1.jpg" alt="Project 1">
-            <p>Project 1 Description</p>
+    <!-- Social Section -->
+    <section class="social">
+        <div class="container">
+            <h2>Follow Me</h2>
+            <div class="social-icons">
+                <a href="#" class="social-icon">LinkedIn</a>
+                <a href="#" class="social-icon">Twitter</a>
+                <a href="#" class="social-icon">Instagram</a>
+            </div>
         </div>
-        <!-- More projects... -->
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials">
-        <h2>Client Testimonials</h2>
-        <blockquote>"[Testimonial quote here]" - Client Name</blockquote>
-        <!-- More testimonials... -->
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
-        <h2>Let’s Work Together</h2>
-        <form>
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message"></textarea>
-            <button type="submit">Send</button>
-        </form>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit" class="cta-button">Send</button>
+            </form>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Grant Whitbourne | All Rights Reserved</p>
+        </div>
     </footer>
 
 </body>
+
 </html>
